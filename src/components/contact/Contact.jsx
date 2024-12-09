@@ -3,7 +3,6 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactSvg from "./ContactSvg";
 import { motion, useInView } from "motion/react";
-import { animate } from "motion";
 
 const listVariants = {
   initial: {
